@@ -1,0 +1,59 @@
+body
+{
+background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading button{
+    float:right;
+    border : 1px dashed grey;
+}
+
+#start, #status, .btn-danger{
+    font-size: 22px;
+}
+
+.btn-danger{
+    width: 260px;
+    margin-bottom: 50px;
+}
+
+.close{
+    font-size: 2pc;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 2;
+    text-align: center;
+    background-color: #ff8c00;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+h4{
+    background-color: #f1f1f1;
+    line-height: 2;
+    margin: 0;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+canvas{
+    border:3px solid white;
+    border-radius: 20px;
+    box-shadow:  2px 2px 2px white;
+}
